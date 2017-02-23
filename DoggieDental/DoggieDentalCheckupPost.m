@@ -137,7 +137,7 @@
             
             // setting up the URL to post to
             //NSString *urlString = @"http://192.168.1.102/petdental/submit_checkup.php";
-            NSString *urlString = @"http://petdental.isaactozer.com/submit_checkup.php";
+            NSString *urlString = @"https://petdentalapp.com/submit_checkup.php";
             
             // setting up the request object now
             NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];

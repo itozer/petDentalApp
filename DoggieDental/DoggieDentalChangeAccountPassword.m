@@ -192,7 +192,7 @@
         
         NSString *content = [NSString stringWithFormat:@"email=%@&existingPassword=%@&newPassword=%@&newPasswordConfirm=%@", [keychain objectForKey:(__bridge id)(kSecAttrAccount)], existingPassword, newPassword, newPasswordConfirm];
         
-        NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://petdental.isaactozer.com/change_account_password.php"]];
+        NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"https://petdentalapp.com/change_account_password.php"]];
         //NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://192.168.1.102/petdental/change_account_password.php"]];
         [request setHTTPMethod:@"POST"];
         [request setHTTPBody:[content dataUsingEncoding:NSISOLatin1StringEncoding]];

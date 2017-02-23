@@ -222,7 +222,7 @@
         
         NSString *content = [NSString stringWithFormat:@"email=%@&password=%@&password2=%@", accountEmail, accountPassword, accountPasswordConfirm];
         
-        NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://petdental.isaactozer.com/create_account.php"]];
+        NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"https://petdentalapp.com/create_account.php"]];
         //NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://192.168.1.102/petdental/create_account.php"]];
         [request setHTTPMethod:@"POST"];
         [request setHTTPBody:[content dataUsingEncoding:NSISOLatin1StringEncoding]];

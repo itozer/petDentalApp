@@ -123,7 +123,7 @@
         
         NSString *content = [NSString stringWithFormat:@"email=%@&newPassword=%@&newPasswordConfirm=%@", accountEmail, newPassword, confirmNewPassword];
         
-        NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://petdental.isaactozer.com/reset_account_password.php"]];
+        NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"https://petdentalapp.com/reset_account_password.php"]];
         [request setHTTPMethod:@"POST"];
         [request setHTTPBody:[content dataUsingEncoding:NSISOLatin1StringEncoding]];
         
@@ -327,7 +327,7 @@
     } else if (response == 2) {
         pop2Back = YES;
         [alertTitle setString:@"Success!"];
-        [userMessage setString:@"You must click the activiation link sent to your email before your password will be changed."];
+        [userMessage setString:@"You must click the activation link sent to your email before your password will be changed."];
         accountEmail = @"";
         newPassword = @"";
         confirmNewPassword = @"";

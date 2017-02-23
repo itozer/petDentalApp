@@ -102,7 +102,7 @@
             //attempt to login to pet dental server
             //this is making the server work too hard. eventually push notifications will be better
             NSString *content = [NSString stringWithFormat:@"email=%@&password=%@", user, pass];
-            NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://petdental.isaactozer.com/return_checkup_results.php"]];
+            NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"https://petdentalapp.com/return_checkup_results.php"]];
             //NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://192.168.1.102/petdental/return_checkup_results.php"]];
             [request setHTTPMethod:@"POST"];
             [request setHTTPBody:[content dataUsingEncoding:NSISOLatin1StringEncoding]];
