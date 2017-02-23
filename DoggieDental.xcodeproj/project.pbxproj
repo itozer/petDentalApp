@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212473AD1E5E5779001008E3 /* KDJKeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 212473AC1E5E5779001008E3 /* KDJKeychainItemWrapper.m */; };
+		BC02489C171C8CD9001E4692 /* DoggieDentalMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02489A171C8CD9001E4692 /* DoggieDentalMainTableViewCell.m */; };
+		BC02489D171C8CD9001E4692 /* DoggieDentalMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC02489B171C8CD9001E4692 /* DoggieDentalMainTableViewCell.xib */; };
+		BC0248A1171C9DC8001E4692 /* red_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = BC02489F171C9DC8001E4692 /* red_circle.png */; };
+		BC0248A2171C9DC8001E4692 /* red_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0248A0171C9DC8001E4692 /* red_circle@2x.png */; };
+		BC0248A6171CDD8C001E4692 /* DoggieDentalThankYou.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0248A4171CDD8B001E4692 /* DoggieDentalThankYou.m */; };
+		BC0248AB17236784001E4692 /* DoggieDentalCheckupAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0248A917236782001E4692 /* DoggieDentalCheckupAnalysis.m */; };
+		BC0248AF17236A2F001E4692 /* DoggieDentalCheckupList.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0248AE17236A2E001E4692 /* DoggieDentalCheckupList.m */; };
+		BC0248B81724BEC9001E4692 /* DoggieDentalHowItWorks.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0248B61724BEC6001E4692 /* DoggieDentalHowItWorks.m */; };
+		BC0248B91724BEC9001E4692 /* DoggieDentalHowItWorks.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0248B71724BEC8001E4692 /* DoggieDentalHowItWorks.xib */; };
+		BC0248BD1724BEF2001E4692 /* DoggieDentalHowToTakeAGoodPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0248BB1724BEEF001E4692 /* DoggieDentalHowToTakeAGoodPhoto.m */; };
+		BC0248BE1724BEF2001E4692 /* DoggieDentalHowToTakeAGoodPhoto.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0248BC1724BEF1001E4692 /* DoggieDentalHowToTakeAGoodPhoto.xib */; };
+		BC0F775B176E916400F306B3 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0F7755176E916400F306B3 /* 1.png */; };
+		BC0F775C176E916400F306B3 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0F7756176E916400F306B3 /* 1@2x.png */; };
+		BC0F775D176E916400F306B3 /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0F7757176E916400F306B3 /* 2@2x.png */; };
+		BC0F775E176E916400F306B3 /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0F7758176E916400F306B3 /* 3@2x.png */; };
+		BC0F775F176E916400F306B3 /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0F7759176E916400F306B3 /* 4@2x.png */; };
+		BC0F7760176E916400F306B3 /* 5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0F775A176E916400F306B3 /* 5@2x.png */; };
+		BC13AF3A17AE1387000DA6D3 /* DoggieDentalForgotPassword2.m in Sources */ = {isa = PBXBuildFile; fileRef = BC13AF3917AE1387000DA6D3 /* DoggieDentalForgotPassword2.m */; };
+		BC184F2117F769B000C3E3DD /* cat_front.png in Resources */ = {isa = PBXBuildFile; fileRef = BC184F1B17F769B000C3E3DD /* cat_front.png */; };
+		BC184F2217F769B000C3E3DD /* cat_front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC184F1C17F769B000C3E3DD /* cat_front@2x.png */; };
+		BC184F2317F769B000C3E3DD /* cat_left.png in Resources */ = {isa = PBXBuildFile; fileRef = BC184F1D17F769B000C3E3DD /* cat_left.png */; };
+		BC184F2417F769B000C3E3DD /* cat_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC184F1E17F769B000C3E3DD /* cat_left@2x.png */; };
+		BC184F2517F769B000C3E3DD /* cat_right.png in Resources */ = {isa = PBXBuildFile; fileRef = BC184F1F17F769B000C3E3DD /* cat_right.png */; };
+		BC184F2617F769B000C3E3DD /* cat_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC184F2017F769B000C3E3DD /* cat_right@2x.png */; };
+		BC184F2C17F7760A00C3E3DD /* DoggieDentalIApHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BC184F2B17F7760A00C3E3DD /* DoggieDentalIApHelper.m */; };
+		BC184F2E17F7775D00C3E3DD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC184F2D17F7775D00C3E3DD /* StoreKit.framework */; };
+		BC184F3117F77D8E00C3E3DD /* DoggieDentalInAppPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = BC184F3017F77D8E00C3E3DD /* DoggieDentalInAppPurchase.m */; };
+		BC233EFF17AD950D002D0AB2 /* DoggieDentalChangeAccountEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = BC233EFE17AD950D002D0AB2 /* DoggieDentalChangeAccountEmail.m */; };
+		BC233F0517ADC41F002D0AB2 /* DoggieDentalChangeAccountPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = BC233F0417ADC41F002D0AB2 /* DoggieDentalChangeAccountPassword.m */; };
+		BC2A927E160E573B00E7E8E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2A927D160E573B00E7E8E6 /* UIKit.framework */; };
+		BC2A9280160E573B00E7E8E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2A927F160E573B00E7E8E6 /* Foundation.framework */; };
+		BC2A9282160E573B00E7E8E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2A9281160E573B00E7E8E6 /* CoreGraphics.framework */; };
+		BC2A9288160E573B00E7E8E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC2A9286160E573B00E7E8E6 /* InfoPlist.strings */; };
+		BC2A928E160E573B00E7E8E6 /* DoggieDentalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2A928D160E573B00E7E8E6 /* DoggieDentalAppDelegate.m */; };
+		BC2A92C4160FC72B00E7E8E6 /* DoggieDentalPetProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2A92C3160FC72B00E7E8E6 /* DoggieDentalPetProfile.m */; };
+		BC2A92C7160FC89D00E7E8E6 /* DoggieDentalPetStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2A92C6160FC89D00E7E8E6 /* DoggieDentalPetStore.m */; };
+		BC2A92CA160FC8B100E7E8E6 /* DoggieDentalImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2A92C9160FC8B100E7E8E6 /* DoggieDentalImageStore.m */; };
+		BC2A92CD160FD0A200E7E8E6 /* DoggieDentalPetList.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2A92CC160FD0A200E7E8E6 /* DoggieDentalPetList.m */; };
+		BC43DD1218E1E3B700696B78 /* icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = BC43DD0F18E1E3B700696B78 /* icon_120.png */; };
+		BC43DD1518E1E43700696B78 /* icon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = BC43DD1318E1E43700696B78 /* icon_58.png */; };
+		BC43DD1618E1E43700696B78 /* icon_80.png in Resources */ = {isa = PBXBuildFile; fileRef = BC43DD1418E1E43700696B78 /* icon_80.png */; };
+		BC43DD1A18E1E58700696B78 /* launch_960.png in Resources */ = {isa = PBXBuildFile; fileRef = BC43DD1818E1E58700696B78 /* launch_960.png */; };
+		BC43DD1B18E1E58700696B78 /* launch_1146.png in Resources */ = {isa = PBXBuildFile; fileRef = BC43DD1918E1E58700696B78 /* launch_1146.png */; };
+		BC43DD1D18E1F18700696B78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC43DD1C18E1F18700696B78 /* Default-568h@2x.png */; };
+		BC454A7517997D5D0093684D /* DoggieDentalAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC454A7317997D5D0093684D /* DoggieDentalAbout.m */; };
+		BC548E7616F5026F00EAE528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC548E5F16F5026F00EAE528 /* main.m */; };
+		BC68CAA216FE37B7006CBF75 /* DoggieDentalExamplePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CAA016FE37B7006CBF75 /* DoggieDentalExamplePhoto.m */; };
+		BC68CAA316FE37B7006CBF75 /* DoggieDentalExamplePhoto.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC68CAA116FE37B7006CBF75 /* DoggieDentalExamplePhoto.xib */; };
+		BC68CAA516FE41EC006CBF75 /* photo_example.png in Resources */ = {isa = PBXBuildFile; fileRef = BC68CAA416FE41EC006CBF75 /* photo_example.png */; };
+		BC68CAA816FE73D0006CBF75 /* DoggieDentalCheckup.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CAA716FE73D0006CBF75 /* DoggieDentalCheckup.m */; };
+		BC68CAAB16FF631C006CBF75 /* DoggieDentalCheckupStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CAAA16FF631B006CBF75 /* DoggieDentalCheckupStore.m */; };
+		BC68CAB316FF9012006CBF75 /* DoggieDentalAccountLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CAB216FF9010006CBF75 /* DoggieDentalAccountLogin.m */; };
+		BC6E14D818D93B5800F61095 /* photo_front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6E14D418D93B5800F61095 /* photo_front@2x.png */; };
+		BC6E14D918D93B5800F61095 /* photo_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6E14D518D93B5800F61095 /* photo_left@2x.png */; };
+		BC6E14DA18D93B5800F61095 /* photo_optional@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6E14D618D93B5800F61095 /* photo_optional@2x.png */; };
+		BC6E14DB18D93B5800F61095 /* photo_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6E14D718D93B5800F61095 /* photo_right@2x.png */; };
+		BC6E14DE18DF87A000F61095 /* DoggieDentalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6E14DD18DF87A000F61095 /* DoggieDentalInfo.m */; };
+		BC6E14E118DF95CF00F61095 /* DoggieDentalDisclaimer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6E14E018DF95CF00F61095 /* DoggieDentalDisclaimer.m */; };
+		BC6E14E418DF969400F61095 /* DoggieDentalTermsOfService.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6E14E318DF969400F61095 /* DoggieDentalTermsOfService.m */; };
+		BC8ACC6216F82A0D00EED901 /* uinavigationbarsliver.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8ACC6016F82A0D00EED901 /* uinavigationbarsliver.png */; };
+		BC8ACC6316F82A0D00EED901 /* uinavigationbarsliver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8ACC6116F82A0D00EED901 /* uinavigationbarsliver@2x.png */; };
+		BC8ACC6B16F84D1700EED901 /* generic_contact2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8ACC6A16F84D1700EED901 /* generic_contact2.png */; };
+		BC93FD8F16F50A720055CC83 /* DoggieDentalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC93FD8E16F50A710055CC83 /* DoggieDentalButton.m */; };
+		BC93FD9216F53EEB0055CC83 /* DoggieDentalPetUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC93FD9116F53EEA0055CC83 /* DoggieDentalPetUITableViewCell.m */; };
+		BC93FD9416F53F780055CC83 /* DoggieDentalPetUITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC93FD9316F53F780055CC83 /* DoggieDentalPetUITableViewCell.xib */; };
+		BC93FD9616F54B630055CC83 /* dog_cell_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = BC93FD9516F54B630055CC83 /* dog_cell_thumb.png */; };
+		BC93FD9A16F5557E0055CC83 /* green_nav_bar_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = BC93FD9916F5557D0055CC83 /* green_nav_bar_gradient.png */; };
+		BC93FD9C16F556F20055CC83 /* general_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BC93FD9B16F556F10055CC83 /* general_bg.png */; };
+		BC9AED9B18EA58CC00AC6A67 /* icon_76.png in Resources */ = {isa = PBXBuildFile; fileRef = BC9AED9A18EA58CC00AC6A67 /* icon_76.png */; };
+		BC9AED9D18EA591800AC6A67 /* icon_152.png in Resources */ = {isa = PBXBuildFile; fileRef = BC9AED9C18EA591800AC6A67 /* icon_152.png */; };
+		BC9AED9F18EA594B00AC6A67 /* icon_40.png in Resources */ = {isa = PBXBuildFile; fileRef = BC9AED9E18EA594B00AC6A67 /* icon_40.png */; };
+		BC9AEDA118EA599200AC6A67 /* icon_29.png in Resources */ = {isa = PBXBuildFile; fileRef = BC9AEDA018EA599200AC6A67 /* icon_29.png */; };
+		BC9AEDA318EA59CC00AC6A67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9AEDA218EA59CC00AC6A67 /* Images.xcassets */; };
+		BCD86330162102B100912694 /* DoggieDentalDentalPhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD8632E162102B100912694 /* DoggieDentalDentalPhotosController.m */; };
+		BCD86331162102B100912694 /* DoggieDentalDentalPhotosController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD8632F162102B100912694 /* DoggieDentalDentalPhotosController.xib */; };
+		BCD9AE11180B190400D7877F /* DoggieDentalCheckupPost.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD9AE10180B190400D7877F /* DoggieDentalCheckupPost.m */; };
+		BCDA0832181D90690003D0BE /* DoggieDentalNearbyVets.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDA0831181D90690003D0BE /* DoggieDentalNearbyVets.m */; };
+		BCDA0834181D90860003D0BE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDA0833181D90860003D0BE /* CoreLocation.framework */; };
+		BCDA083A181DBF6B0003D0BE /* DoggieDentalNearbyVetsList.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDA0839181DBF6B0003D0BE /* DoggieDentalNearbyVetsList.m */; };
+		BCDBB6501740027C003BD698 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDBB64F1740027C003BD698 /* Security.framework */; };
+		BCDBB67217480B50003BD698 /* dental_front_block.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB67117480B50003BD698 /* dental_front_block.png */; };
+		BCDBB67A17481044003BD698 /* dental_front_block@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB67317481044003BD698 /* dental_front_block@2x.png */; };
+		BCDBB67B17481045003BD698 /* dental_left_block.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB67417481044003BD698 /* dental_left_block.png */; };
+		BCDBB67C17481045003BD698 /* dental_left_block@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB67517481044003BD698 /* dental_left_block@2x.png */; };
+		BCDBB67D17481045003BD698 /* dental_optional_block.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB67617481044003BD698 /* dental_optional_block.png */; };
+		BCDBB67E17481045003BD698 /* dental_optional_block@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB67717481044003BD698 /* dental_optional_block@2x.png */; };
+		BCDBB67F17481045003BD698 /* dental_right_block.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB67817481044003BD698 /* dental_right_block.png */; };
+		BCDBB68017481045003BD698 /* dental_right_block@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB67917481044003BD698 /* dental_right_block@2x.png */; };
+		BCDBB68717481697003BD698 /* front.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB68117481696003BD698 /* front.png */; };
+		BCDBB68817481697003BD698 /* front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB68217481696003BD698 /* front@2x.png */; };
+		BCDBB68917481697003BD698 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB68317481696003BD698 /* left.png */; };
+		BCDBB68A17481697003BD698 /* left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB68417481696003BD698 /* left@2x.png */; };
+		BCDBB68B17481697003BD698 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB68517481696003BD698 /* right.png */; };
+		BCDBB68C17481697003BD698 /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB68617481696003BD698 /* right@2x.png */; };
+		BCDBB69317487FA6003BD698 /* uinavigationbarsliver2.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB69117487FA6003BD698 /* uinavigationbarsliver2.png */; };
+		BCDBB69417487FA6003BD698 /* uinavigationbarsliver2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB69217487FA6003BD698 /* uinavigationbarsliver2@2x.png */; };
+		BCDBB698174890E2003BD698 /* DoggieDentalMain2.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDBB696174890E2003BD698 /* DoggieDentalMain2.m */; };
+		BCDBB699174890E2003BD698 /* DoggieDentalMain2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB697174890E2003BD698 /* DoggieDentalMain2.xib */; };
+		BCDBB69C17496648003BD698 /* DoggieDentalHomeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDBB69B17496648003BD698 /* DoggieDentalHomeCollectionCell.m */; };
+		BCDBB6A017496732003BD698 /* DoggieDentalHomeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDBB69F17496731003BD698 /* DoggieDentalHomeCollectionCell.xib */; };
+		BCE1B40F18D4F6DD0003BB82 /* cat_optional@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE1B40E18D4F6DD0003BB82 /* cat_optional@2x.png */; };
+		BCE1B41118D4F6F80003BB82 /* cat_optional.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE1B41018D4F6F80003BB82 /* cat_optional.png */; };
+		BCE1B41418D4F8FE0003BB82 /* dog_optional.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE1B41218D4F8FE0003BB82 /* dog_optional.png */; };
+		BCE1B41518D4F8FE0003BB82 /* dog_optional@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE1B41318D4F8FE0003BB82 /* dog_optional@2x.png */; };
+		BCF207B416E3CF080061DDB8 /* DoggieDentalAddPetController2.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF207B316E3CF080061DDB8 /* DoggieDentalAddPetController2.m */; };
+		BCF3A24E1798D677006F57A7 /* DoggieDentalLoggedIn.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF3A24C1798D677006F57A7 /* DoggieDentalLoggedIn.m */; };
+		BCF3A24F1798D677006F57A7 /* DoggieDentalLoggedIn.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF3A24D1798D677006F57A7 /* DoggieDentalLoggedIn.xib */; };
+		BCF9289017B6D54500773C59 /* default_cat.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF9288C17B6D54500773C59 /* default_cat.png */; };
+		BCF9289117B6D54500773C59 /* default_cat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF9288D17B6D54500773C59 /* default_cat@2x.png */; };
+		BCF9289217B6D54500773C59 /* default_dog.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF9288E17B6D54500773C59 /* default_dog.png */; };
+		BCF9289317B6D54500773C59 /* default_dog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF9288F17B6D54500773C59 /* default_dog@2x.png */; };
+		BCF9289717BDBDA400773C59 /* DoggieDentalButtonFlat.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF9289617BDBDA400773C59 /* DoggieDentalButtonFlat.m */; };
+		BCFBAFE016ED25C800343C4C /* DoggieDentalAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFBAFDE16ED25C800343C4C /* DoggieDentalAccount.m */; };
+		BCFBAFE416ED4A6400343C4C /* DoggieDentalAccountSignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFBAFE316ED4A6400343C4C /* DoggieDentalAccountSignUp.m */; };
+		BCFBAFEB16ED826300343C4C /* DoggieDentalPaymentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFBAFE916ED826300343C4C /* DoggieDentalPaymentInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		212473AB1E5E5768001008E3 /* KDJKeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KDJKeychainItemWrapper.h; path = ../../../kdj/KDJKeychainItemWrapper.h; sourceTree = "<group>"; };
+		212473AC1E5E5779001008E3 /* KDJKeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KDJKeychainItemWrapper.m; path = ../../../kdj/KDJKeychainItemWrapper.m; sourceTree = "<group>"; };
+		BC024899171C8CD8001E4692 /* DoggieDentalMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalMainTableViewCell.h; sourceTree = "<group>"; };
+		BC02489A171C8CD9001E4692 /* DoggieDentalMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalMainTableViewCell.m; sourceTree = "<group>"; };
+		BC02489B171C8CD9001E4692 /* DoggieDentalMainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoggieDentalMainTableViewCell.xib; sourceTree = "<group>"; };
+		BC02489F171C9DC8001E4692 /* red_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red_circle.png; path = ../../../images/red_circle.png; sourceTree = "<group>"; };
+		BC0248A0171C9DC8001E4692 /* red_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red_circle@2x.png"; path = "../../../images/red_circle@2x.png"; sourceTree = "<group>"; };
+		BC0248A3171CDD8B001E4692 /* DoggieDentalThankYou.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalThankYou.h; sourceTree = "<group>"; };
+		BC0248A4171CDD8B001E4692 /* DoggieDentalThankYou.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalThankYou.m; sourceTree = "<group>"; };
+		BC0248A81723677F001E4692 /* DoggieDentalCheckupAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalCheckupAnalysis.h; sourceTree = "<group>"; };
+		BC0248A917236782001E4692 /* DoggieDentalCheckupAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalCheckupAnalysis.m; sourceTree = "<group>"; };
+		BC0248AD17236A2E001E4692 /* DoggieDentalCheckupList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalCheckupList.h; sourceTree = "<group>"; };
+		BC0248AE17236A2E001E4692 /* DoggieDentalCheckupList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalCheckupList.m; sourceTree = "<group>"; };
+		BC0248B51724BEC5001E4692 /* DoggieDentalHowItWorks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalHowItWorks.h; sourceTree = "<group>"; };
+		BC0248B61724BEC6001E4692 /* DoggieDentalHowItWorks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalHowItWorks.m; sourceTree = "<group>"; };
+		BC0248B71724BEC8001E4692 /* DoggieDentalHowItWorks.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoggieDentalHowItWorks.xib; sourceTree = "<group>"; };
+		BC0248BA1724BEEE001E4692 /* DoggieDentalHowToTakeAGoodPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalHowToTakeAGoodPhoto.h; sourceTree = "<group>"; };
+		BC0248BB1724BEEF001E4692 /* DoggieDentalHowToTakeAGoodPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalHowToTakeAGoodPhoto.m; sourceTree = "<group>"; };
+		BC0248BC1724BEF1001E4692 /* DoggieDentalHowToTakeAGoodPhoto.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoggieDentalHowToTakeAGoodPhoto.xib; sourceTree = "<group>"; };
+		BC0F7755176E916400F306B3 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../../images/slides/1.png; sourceTree = "<group>"; };
+		BC0F7756176E916400F306B3 /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1@2x.png"; path = "../../../images/slides/1@2x.png"; sourceTree = "<group>"; };
+		BC0F7757176E916400F306B3 /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2@2x.png"; path = "../../../images/slides/2@2x.png"; sourceTree = "<group>"; };
+		BC0F7758176E916400F306B3 /* 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3@2x.png"; path = "../../../images/slides/3@2x.png"; sourceTree = "<group>"; };
+		BC0F7759176E916400F306B3 /* 4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4@2x.png"; path = "../../../images/slides/4@2x.png"; sourceTree = "<group>"; };
+		BC0F775A176E916400F306B3 /* 5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "5@2x.png"; path = "../../../images/slides/5@2x.png"; sourceTree = "<group>"; };
+		BC13AF3817AE1387000DA6D3 /* DoggieDentalForgotPassword2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalForgotPassword2.h; sourceTree = "<group>"; };
+		BC13AF3917AE1387000DA6D3 /* DoggieDentalForgotPassword2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DoggieDentalForgotPassword2.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BC184F1B17F769B000C3E3DD /* cat_front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat_front.png; path = ../../../images/photo_examples/cat_front.png; sourceTree = "<group>"; };
+		BC184F1C17F769B000C3E3DD /* cat_front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cat_front@2x.png"; path = "../../../images/photo_examples/cat_front@2x.png"; sourceTree = "<group>"; };
+		BC184F1D17F769B000C3E3DD /* cat_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat_left.png; path = ../../../images/photo_examples/cat_left.png; sourceTree = "<group>"; };
+		BC184F1E17F769B000C3E3DD /* cat_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cat_left@2x.png"; path = "../../../images/photo_examples/cat_left@2x.png"; sourceTree = "<group>"; };
+		BC184F1F17F769B000C3E3DD /* cat_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat_right.png; path = ../../../images/photo_examples/cat_right.png; sourceTree = "<group>"; };
+		BC184F2017F769B000C3E3DD /* cat_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cat_right@2x.png"; path = "../../../images/photo_examples/cat_right@2x.png"; sourceTree = "<group>"; };
+		BC184F2A17F7760A00C3E3DD /* DoggieDentalIApHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalIApHelper.h; sourceTree = "<group>"; };
+		BC184F2B17F7760A00C3E3DD /* DoggieDentalIApHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalIApHelper.m; sourceTree = "<group>"; };
+		BC184F2D17F7775D00C3E3DD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BC184F2F17F77D8E00C3E3DD /* DoggieDentalInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalInAppPurchase.h; sourceTree = "<group>"; };
+		BC184F3017F77D8E00C3E3DD /* DoggieDentalInAppPurchase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalInAppPurchase.m; sourceTree = "<group>"; };
+		BC233EFD17AD950D002D0AB2 /* DoggieDentalChangeAccountEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalChangeAccountEmail.h; sourceTree = "<group>"; };
+		BC233EFE17AD950D002D0AB2 /* DoggieDentalChangeAccountEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DoggieDentalChangeAccountEmail.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BC233F0317ADC41F002D0AB2 /* DoggieDentalChangeAccountPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalChangeAccountPassword.h; sourceTree = "<group>"; };
+		BC233F0417ADC41F002D0AB2 /* DoggieDentalChangeAccountPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DoggieDentalChangeAccountPassword.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BC2A9279160E573B00E7E8E6 /* Pet Dental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet Dental.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2A927D160E573B00E7E8E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC2A927F160E573B00E7E8E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC2A9281160E573B00E7E8E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC2A9285160E573B00E7E8E6 /* DoggieDental-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoggieDental-Info.plist"; sourceTree = "<group>"; };
+		BC2A9287160E573B00E7E8E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC2A928B160E573B00E7E8E6 /* DoggieDental-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoggieDental-Prefix.pch"; sourceTree = "<group>"; };
+		BC2A928C160E573B00E7E8E6 /* DoggieDentalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoggieDentalAppDelegate.h; sourceTree = "<group>"; };
+		BC2A928D160E573B00E7E8E6 /* DoggieDentalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DoggieDentalAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BC2A92C2160FC72B00E7E8E6 /* DoggieDentalPetProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalPetProfile.h; sourceTree = "<group>"; };
+		BC2A92C3160FC72B00E7E8E6 /* DoggieDentalPetProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalPetProfile.m; sourceTree = "<group>"; };
+		BC2A92C5160FC89D00E7E8E6 /* DoggieDentalPetStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalPetStore.h; sourceTree = "<group>"; };
+		BC2A92C6160FC89D00E7E8E6 /* DoggieDentalPetStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DoggieDentalPetStore.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BC2A92C8160FC8B100E7E8E6 /* DoggieDentalImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalImageStore.h; sourceTree = "<group>"; };
+		BC2A92C9160FC8B100E7E8E6 /* DoggieDentalImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalImageStore.m; sourceTree = "<group>"; };
+		BC2A92CB160FD0A200E7E8E6 /* DoggieDentalPetList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalPetList.h; sourceTree = "<group>"; };
+		BC2A92CC160FD0A200E7E8E6 /* DoggieDentalPetList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalPetList.m; sourceTree = "<group>"; };
+		BC43DD0F18E1E3B700696B78 /* icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_120.png; path = ../../../images/icon/icon_120.png; sourceTree = "<group>"; };
+		BC43DD1318E1E43700696B78 /* icon_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_58.png; path = ../../../images/icon/icon_58.png; sourceTree = "<group>"; };
+		BC43DD1418E1E43700696B78 /* icon_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_80.png; path = ../../../images/icon/icon_80.png; sourceTree = "<group>"; };
+		BC43DD1818E1E58700696B78 /* launch_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch_960.png; path = ../../../images/launch_images/launch_960.png; sourceTree = "<group>"; };
+		BC43DD1918E1E58700696B78 /* launch_1146.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch_1146.png; path = ../../../images/launch_images/launch_1146.png; sourceTree = "<group>"; };
+		BC43DD1C18E1F18700696B78 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BC454A7217997D5D0093684D /* DoggieDentalAbout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalAbout.h; sourceTree = "<group>"; };
+		BC454A7317997D5D0093684D /* DoggieDentalAbout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalAbout.m; sourceTree = "<group>"; };
+		BC548E5F16F5026F00EAE528 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC68CA9F16FE37B6006CBF75 /* DoggieDentalExamplePhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalExamplePhoto.h; sourceTree = "<group>"; };
+		BC68CAA016FE37B7006CBF75 /* DoggieDentalExamplePhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalExamplePhoto.m; sourceTree = "<group>"; };
+		BC68CAA116FE37B7006CBF75 /* DoggieDentalExamplePhoto.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoggieDentalExamplePhoto.xib; sourceTree = "<group>"; };
+		BC68CAA416FE41EC006CBF75 /* photo_example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo_example.png; path = ../../../images/photo_example.png; sourceTree = "<group>"; };
+		BC68CAA616FE73CF006CBF75 /* DoggieDentalCheckup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalCheckup.h; sourceTree = "<group>"; };
+		BC68CAA716FE73D0006CBF75 /* DoggieDentalCheckup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalCheckup.m; sourceTree = "<group>"; };
+		BC68CAA916FF631A006CBF75 /* DoggieDentalCheckupStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalCheckupStore.h; sourceTree = "<group>"; };
+		BC68CAAA16FF631B006CBF75 /* DoggieDentalCheckupStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalCheckupStore.m; sourceTree = "<group>"; };
+		BC68CAB116FF9010006CBF75 /* DoggieDentalAccountLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalAccountLogin.h; sourceTree = "<group>"; };
+		BC68CAB216FF9010006CBF75 /* DoggieDentalAccountLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DoggieDentalAccountLogin.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BC6E14D418D93B5800F61095 /* photo_front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo_front@2x.png"; path = "../../../images/photo_controller_blocks/photo_front@2x.png"; sourceTree = "<group>"; };
+		BC6E14D518D93B5800F61095 /* photo_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo_left@2x.png"; path = "../../../images/photo_controller_blocks/photo_left@2x.png"; sourceTree = "<group>"; };
+		BC6E14D618D93B5800F61095 /* photo_optional@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo_optional@2x.png"; path = "../../../images/photo_controller_blocks/photo_optional@2x.png"; sourceTree = "<group>"; };
+		BC6E14D718D93B5800F61095 /* photo_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo_right@2x.png"; path = "../../../images/photo_controller_blocks/photo_right@2x.png"; sourceTree = "<group>"; };
+		BC6E14DC18DF87A000F61095 /* DoggieDentalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalInfo.h; sourceTree = "<group>"; };
+		BC6E14DD18DF87A000F61095 /* DoggieDentalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalInfo.m; sourceTree = "<group>"; };
+		BC6E14DF18DF95CF00F61095 /* DoggieDentalDisclaimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalDisclaimer.h; sourceTree = "<group>"; };
+		BC6E14E018DF95CF00F61095 /* DoggieDentalDisclaimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalDisclaimer.m; sourceTree = "<group>"; };
+		BC6E14E218DF969400F61095 /* DoggieDentalTermsOfService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalTermsOfService.h; sourceTree = "<group>"; };
+		BC6E14E318DF969400F61095 /* DoggieDentalTermsOfService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalTermsOfService.m; sourceTree = "<group>"; };
+		BC8ACC6016F82A0D00EED901 /* uinavigationbarsliver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uinavigationbarsliver.png; path = ../../../images/uinavigationbarsliver.png; sourceTree = "<group>"; };
+		BC8ACC6116F82A0D00EED901 /* uinavigationbarsliver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "uinavigationbarsliver@2x.png"; path = "../../../images/uinavigationbarsliver@2x.png"; sourceTree = "<group>"; };
+		BC8ACC6A16F84D1700EED901 /* generic_contact2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = generic_contact2.png; path = ../../../images/generic_contact2.png; sourceTree = "<group>"; };
+		BC93FD8D16F50A710055CC83 /* DoggieDentalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalButton.h; sourceTree = "<group>"; };
+		BC93FD8E16F50A710055CC83 /* DoggieDentalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalButton.m; sourceTree = "<group>"; };
+		BC93FD9016F53EE90055CC83 /* DoggieDentalPetUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalPetUITableViewCell.h; sourceTree = "<group>"; };
+		BC93FD9116F53EEA0055CC83 /* DoggieDentalPetUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalPetUITableViewCell.m; sourceTree = "<group>"; };
+		BC93FD9316F53F780055CC83 /* DoggieDentalPetUITableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoggieDentalPetUITableViewCell.xib; sourceTree = "<group>"; };
+		BC93FD9516F54B630055CC83 /* dog_cell_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog_cell_thumb.png; path = ../../../images/dog_cell_thumb.png; sourceTree = "<group>"; };
+		BC93FD9916F5557D0055CC83 /* green_nav_bar_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_nav_bar_gradient.png; path = ../../../images/green_nav_bar_gradient.png; sourceTree = "<group>"; };
+		BC93FD9B16F556F10055CC83 /* general_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = general_bg.png; path = ../../../images/general_bg.png; sourceTree = "<group>"; };
+		BC9AED9A18EA58CC00AC6A67 /* icon_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_76.png; path = ../../../images/icon/icon_76.png; sourceTree = "<group>"; };
+		BC9AED9C18EA591800AC6A67 /* icon_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_152.png; path = ../../../images/icon/icon_152.png; sourceTree = "<group>"; };
+		BC9AED9E18EA594B00AC6A67 /* icon_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_40.png; path = ../../../images/icon/icon_40.png; sourceTree = "<group>"; };
+		BC9AEDA018EA599200AC6A67 /* icon_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_29.png; path = ../../../images/icon/icon_29.png; sourceTree = "<group>"; };
+		BC9AEDA218EA59CC00AC6A67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Pet Dental/Images.xcassets"; sourceTree = "<group>"; };
+		BCD8632D162102B100912694 /* DoggieDentalDentalPhotosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalDentalPhotosController.h; sourceTree = "<group>"; };
+		BCD8632E162102B100912694 /* DoggieDentalDentalPhotosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalDentalPhotosController.m; sourceTree = "<group>"; };
+		BCD8632F162102B100912694 /* DoggieDentalDentalPhotosController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoggieDentalDentalPhotosController.xib; sourceTree = "<group>"; };
+		BCD9AE0F180B190400D7877F /* DoggieDentalCheckupPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalCheckupPost.h; sourceTree = "<group>"; };
+		BCD9AE10180B190400D7877F /* DoggieDentalCheckupPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DoggieDentalCheckupPost.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BCDA0830181D90690003D0BE /* DoggieDentalNearbyVets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalNearbyVets.h; sourceTree = "<group>"; };
+		BCDA0831181D90690003D0BE /* DoggieDentalNearbyVets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalNearbyVets.m; sourceTree = "<group>"; };
+		BCDA0833181D90860003D0BE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BCDA0838181DBF6B0003D0BE /* DoggieDentalNearbyVetsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalNearbyVetsList.h; sourceTree = "<group>"; };
+		BCDA0839181DBF6B0003D0BE /* DoggieDentalNearbyVetsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalNearbyVetsList.m; sourceTree = "<group>"; };
+		BCDBB64F1740027C003BD698 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BCDBB67117480B50003BD698 /* dental_front_block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dental_front_block.png; path = ../../../images/dental_photos_controller/dental_front_block.png; sourceTree = "<group>"; };
+		BCDBB67317481044003BD698 /* dental_front_block@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dental_front_block@2x.png"; path = "../../../images/dental_photos_controller/dental_front_block@2x.png"; sourceTree = "<group>"; };
+		BCDBB67417481044003BD698 /* dental_left_block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dental_left_block.png; path = ../../../images/dental_photos_controller/dental_left_block.png; sourceTree = "<group>"; };
+		BCDBB67517481044003BD698 /* dental_left_block@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dental_left_block@2x.png"; path = "../../../images/dental_photos_controller/dental_left_block@2x.png"; sourceTree = "<group>"; };
+		BCDBB67617481044003BD698 /* dental_optional_block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dental_optional_block.png; path = ../../../images/dental_photos_controller/dental_optional_block.png; sourceTree = "<group>"; };
+		BCDBB67717481044003BD698 /* dental_optional_block@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dental_optional_block@2x.png"; path = "../../../images/dental_photos_controller/dental_optional_block@2x.png"; sourceTree = "<group>"; };
+		BCDBB67817481044003BD698 /* dental_right_block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dental_right_block.png; path = ../../../images/dental_photos_controller/dental_right_block.png; sourceTree = "<group>"; };
+		BCDBB67917481044003BD698 /* dental_right_block@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dental_right_block@2x.png"; path = "../../../images/dental_photos_controller/dental_right_block@2x.png"; sourceTree = "<group>"; };
+		BCDBB68117481696003BD698 /* front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = front.png; path = ../../../images/photo_examples/front.png; sourceTree = "<group>"; };
+		BCDBB68217481696003BD698 /* front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "front@2x.png"; path = "../../../images/photo_examples/front@2x.png"; sourceTree = "<group>"; };
+		BCDBB68317481696003BD698 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = left.png; path = ../../../images/photo_examples/left.png; sourceTree = "<group>"; };
+		BCDBB68417481696003BD698 /* left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "left@2x.png"; path = "../../../images/photo_examples/left@2x.png"; sourceTree = "<group>"; };
+		BCDBB68517481696003BD698 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = right.png; path = ../../../images/photo_examples/right.png; sourceTree = "<group>"; };
+		BCDBB68617481696003BD698 /* right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "right@2x.png"; path = "../../../images/photo_examples/right@2x.png"; sourceTree = "<group>"; };
+		BCDBB69117487FA6003BD698 /* uinavigationbarsliver2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uinavigationbarsliver2.png; path = ../../../images/uinavigationbarsliver2.png; sourceTree = "<group>"; };
+		BCDBB69217487FA6003BD698 /* uinavigationbarsliver2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "uinavigationbarsliver2@2x.png"; path = "../../../images/uinavigationbarsliver2@2x.png"; sourceTree = "<group>"; };
+		BCDBB695174890E2003BD698 /* DoggieDentalMain2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalMain2.h; sourceTree = "<group>"; };
+		BCDBB696174890E2003BD698 /* DoggieDentalMain2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalMain2.m; sourceTree = "<group>"; };
+		BCDBB697174890E2003BD698 /* DoggieDentalMain2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoggieDentalMain2.xib; sourceTree = "<group>"; };
+		BCDBB69A17496648003BD698 /* DoggieDentalHomeCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalHomeCollectionCell.h; sourceTree = "<group>"; };
+		BCDBB69B17496648003BD698 /* DoggieDentalHomeCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalHomeCollectionCell.m; sourceTree = "<group>"; };
+		BCDBB69F17496731003BD698 /* DoggieDentalHomeCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoggieDentalHomeCollectionCell.xib; sourceTree = "<group>"; };
+		BCE1B40E18D4F6DD0003BB82 /* cat_optional@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cat_optional@2x.png"; path = "../../../images/photo_examples/cat_optional@2x.png"; sourceTree = "<group>"; };
+		BCE1B41018D4F6F80003BB82 /* cat_optional.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat_optional.png; path = ../../../images/photo_examples/cat_optional.png; sourceTree = "<group>"; };
+		BCE1B41218D4F8FE0003BB82 /* dog_optional.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog_optional.png; path = ../../../images/photo_examples/dog_optional.png; sourceTree = "<group>"; };
+		BCE1B41318D4F8FE0003BB82 /* dog_optional@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dog_optional@2x.png"; path = "../../../images/photo_examples/dog_optional@2x.png"; sourceTree = "<group>"; };
+		BCF207B216E3CF080061DDB8 /* DoggieDentalAddPetController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalAddPetController2.h; sourceTree = "<group>"; };
+		BCF207B316E3CF080061DDB8 /* DoggieDentalAddPetController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalAddPetController2.m; sourceTree = "<group>"; };
+		BCF3A24B1798D676006F57A7 /* DoggieDentalLoggedIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalLoggedIn.h; sourceTree = "<group>"; };
+		BCF3A24C1798D677006F57A7 /* DoggieDentalLoggedIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalLoggedIn.m; sourceTree = "<group>"; };
+		BCF3A24D1798D677006F57A7 /* DoggieDentalLoggedIn.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoggieDentalLoggedIn.xib; sourceTree = "<group>"; };
+		BCF9288C17B6D54500773C59 /* default_cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_cat.png; path = ../../../images/default_cat.png; sourceTree = "<group>"; };
+		BCF9288D17B6D54500773C59 /* default_cat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "default_cat@2x.png"; path = "../../../images/default_cat@2x.png"; sourceTree = "<group>"; };
+		BCF9288E17B6D54500773C59 /* default_dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_dog.png; path = ../../../images/default_dog.png; sourceTree = "<group>"; };
+		BCF9288F17B6D54500773C59 /* default_dog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "default_dog@2x.png"; path = "../../../images/default_dog@2x.png"; sourceTree = "<group>"; };
+		BCF9289517BDBDA400773C59 /* DoggieDentalButtonFlat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalButtonFlat.h; sourceTree = "<group>"; };
+		BCF9289617BDBDA400773C59 /* DoggieDentalButtonFlat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalButtonFlat.m; sourceTree = "<group>"; };
+		BCFBAFDD16ED25C800343C4C /* DoggieDentalAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalAccount.h; sourceTree = "<group>"; };
+		BCFBAFDE16ED25C800343C4C /* DoggieDentalAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalAccount.m; sourceTree = "<group>"; };
+		BCFBAFE216ED4A6400343C4C /* DoggieDentalAccountSignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalAccountSignUp.h; sourceTree = "<group>"; };
+		BCFBAFE316ED4A6400343C4C /* DoggieDentalAccountSignUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DoggieDentalAccountSignUp.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BCFBAFE816ED826200343C4C /* DoggieDentalPaymentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoggieDentalPaymentInfo.h; sourceTree = "<group>"; };
+		BCFBAFE916ED826300343C4C /* DoggieDentalPaymentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoggieDentalPaymentInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC2A9276160E573B00E7E8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDA0834181D90860003D0BE /* CoreLocation.framework in Frameworks */,
+				BC184F2E17F7775D00C3E3DD /* StoreKit.framework in Frameworks */,
+				BCDBB6501740027C003BD698 /* Security.framework in Frameworks */,
+				BC2A927E160E573B00E7E8E6 /* UIKit.framework in Frameworks */,
+				BC2A9280160E573B00E7E8E6 /* Foundation.framework in Frameworks */,
+				BC2A9282160E573B00E7E8E6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC0F774E176E90CC00F306B3 /* slides */ = {
+			isa = PBXGroup;
+			children = (
+				BC0F7755176E916400F306B3 /* 1.png */,
+				BC0F7756176E916400F306B3 /* 1@2x.png */,
+				BC0F7757176E916400F306B3 /* 2@2x.png */,
+				BC0F7758176E916400F306B3 /* 3@2x.png */,
+				BC0F7759176E916400F306B3 /* 4@2x.png */,
+				BC0F775A176E916400F306B3 /* 5@2x.png */,
+			);
+			name = slides;
+			sourceTree = "<group>";
+		};
+		BC184F1A17F7692C00C3E3DD /* dental photo examples */ = {
+			isa = PBXGroup;
+			children = (
+				BCE1B41218D4F8FE0003BB82 /* dog_optional.png */,
+				BCE1B41318D4F8FE0003BB82 /* dog_optional@2x.png */,
+				BCE1B41018D4F6F80003BB82 /* cat_optional.png */,
+				BCE1B40E18D4F6DD0003BB82 /* cat_optional@2x.png */,
+				BC184F1B17F769B000C3E3DD /* cat_front.png */,
+				BC184F1C17F769B000C3E3DD /* cat_front@2x.png */,
+				BC184F1D17F769B000C3E3DD /* cat_left.png */,
+				BC184F1E17F769B000C3E3DD /* cat_left@2x.png */,
+				BC184F1F17F769B000C3E3DD /* cat_right.png */,
+				BC184F2017F769B000C3E3DD /* cat_right@2x.png */,
+				BC68CAA416FE41EC006CBF75 /* photo_example.png */,
+				BCDBB68117481696003BD698 /* front.png */,
+				BCDBB68217481696003BD698 /* front@2x.png */,
+				BCDBB68317481696003BD698 /* left.png */,
+				BCDBB68417481696003BD698 /* left@2x.png */,
+				BCDBB68517481696003BD698 /* right.png */,
+				BCDBB68617481696003BD698 /* right@2x.png */,
+			);
+			name = "dental photo examples";
+			sourceTree = "<group>";
+		};
+		BC2A926E160E573A00E7E8E6 = {
+			isa = PBXGroup;
+			children = (
+				BC9AEDA218EA59CC00AC6A67 /* Images.xcassets */,
+				BC43DD1C18E1F18700696B78 /* Default-568h@2x.png */,
+				BC2A9283160E573B00E7E8E6 /* DoggieDental */,
+				BC2A927C160E573B00E7E8E6 /* Frameworks */,
+				BC2A927A160E573B00E7E8E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC2A927A160E573B00E7E8E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC2A9279160E573B00E7E8E6 /* Pet Dental.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2A927C160E573B00E7E8E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCDA0833181D90860003D0BE /* CoreLocation.framework */,
+				BCDBB64F1740027C003BD698 /* Security.framework */,
+				BC184F2D17F7775D00C3E3DD /* StoreKit.framework */,
+				BC2A927D160E573B00E7E8E6 /* UIKit.framework */,
+				BC2A927F160E573B00E7E8E6 /* Foundation.framework */,
+				BC2A9281160E573B00E7E8E6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC2A9283160E573B00E7E8E6 /* DoggieDental */ = {
+			isa = PBXGroup;
+			children = (
+				BCF9289417BDBC6300773C59 /* custom classes */,
+				BCDBB649173FFFF6003BD698 /* 3rd party wrappers */,
+				BC68CAAD16FF6931006CBF75 /* Images */,
+				BC2A928C160E573B00E7E8E6 /* DoggieDentalAppDelegate.h */,
+				BC2A928D160E573B00E7E8E6 /* DoggieDentalAppDelegate.m */,
+				BCDBB695174890E2003BD698 /* DoggieDentalMain2.h */,
+				BCDBB696174890E2003BD698 /* DoggieDentalMain2.m */,
+				BCDBB697174890E2003BD698 /* DoggieDentalMain2.xib */,
+				BCDBB69A17496648003BD698 /* DoggieDentalHomeCollectionCell.h */,
+				BCDBB69B17496648003BD698 /* DoggieDentalHomeCollectionCell.m */,
+				BCDBB69F17496731003BD698 /* DoggieDentalHomeCollectionCell.xib */,
+				BC2A92CB160FD0A200E7E8E6 /* DoggieDentalPetList.h */,
+				BC2A92CC160FD0A200E7E8E6 /* DoggieDentalPetList.m */,
+				BC6E14DC18DF87A000F61095 /* DoggieDentalInfo.h */,
+				BC6E14DD18DF87A000F61095 /* DoggieDentalInfo.m */,
+				BC454A7217997D5D0093684D /* DoggieDentalAbout.h */,
+				BC454A7317997D5D0093684D /* DoggieDentalAbout.m */,
+				BC6E14DF18DF95CF00F61095 /* DoggieDentalDisclaimer.h */,
+				BC6E14E018DF95CF00F61095 /* DoggieDentalDisclaimer.m */,
+				BC6E14E218DF969400F61095 /* DoggieDentalTermsOfService.h */,
+				BC6E14E318DF969400F61095 /* DoggieDentalTermsOfService.m */,
+				BCF207B216E3CF080061DDB8 /* DoggieDentalAddPetController2.h */,
+				BCF207B316E3CF080061DDB8 /* DoggieDentalAddPetController2.m */,
+				BCD8632D162102B100912694 /* DoggieDentalDentalPhotosController.h */,
+				BCD8632E162102B100912694 /* DoggieDentalDentalPhotosController.m */,
+				BCD8632F162102B100912694 /* DoggieDentalDentalPhotosController.xib */,
+				BCFBAFDD16ED25C800343C4C /* DoggieDentalAccount.h */,
+				BCFBAFDE16ED25C800343C4C /* DoggieDentalAccount.m */,
+				BC68CAB116FF9010006CBF75 /* DoggieDentalAccountLogin.h */,
+				BC68CAB216FF9010006CBF75 /* DoggieDentalAccountLogin.m */,
+				BC13AF3817AE1387000DA6D3 /* DoggieDentalForgotPassword2.h */,
+				BC13AF3917AE1387000DA6D3 /* DoggieDentalForgotPassword2.m */,
+				BCFBAFE216ED4A6400343C4C /* DoggieDentalAccountSignUp.h */,
+				BCFBAFE316ED4A6400343C4C /* DoggieDentalAccountSignUp.m */,
+				BCF3A24B1798D676006F57A7 /* DoggieDentalLoggedIn.h */,
+				BCF3A24C1798D677006F57A7 /* DoggieDentalLoggedIn.m */,
+				BCF3A24D1798D677006F57A7 /* DoggieDentalLoggedIn.xib */,
+				BC233EFD17AD950D002D0AB2 /* DoggieDentalChangeAccountEmail.h */,
+				BC233EFE17AD950D002D0AB2 /* DoggieDentalChangeAccountEmail.m */,
+				BC233F0317ADC41F002D0AB2 /* DoggieDentalChangeAccountPassword.h */,
+				BC233F0417ADC41F002D0AB2 /* DoggieDentalChangeAccountPassword.m */,
+				BCFBAFE816ED826200343C4C /* DoggieDentalPaymentInfo.h */,
+				BCFBAFE916ED826300343C4C /* DoggieDentalPaymentInfo.m */,
+				BC184F2A17F7760A00C3E3DD /* DoggieDentalIApHelper.h */,
+				BC184F2B17F7760A00C3E3DD /* DoggieDentalIApHelper.m */,
+				BC184F2F17F77D8E00C3E3DD /* DoggieDentalInAppPurchase.h */,
+				BC184F3017F77D8E00C3E3DD /* DoggieDentalInAppPurchase.m */,
+				BCD9AE0F180B190400D7877F /* DoggieDentalCheckupPost.h */,
+				BCD9AE10180B190400D7877F /* DoggieDentalCheckupPost.m */,
+				BC0248A3171CDD8B001E4692 /* DoggieDentalThankYou.h */,
+				BC0248A4171CDD8B001E4692 /* DoggieDentalThankYou.m */,
+				BC0248AD17236A2E001E4692 /* DoggieDentalCheckupList.h */,
+				BC0248AE17236A2E001E4692 /* DoggieDentalCheckupList.m */,
+				BC0248A81723677F001E4692 /* DoggieDentalCheckupAnalysis.h */,
+				BC0248A917236782001E4692 /* DoggieDentalCheckupAnalysis.m */,
+				BC0248B51724BEC5001E4692 /* DoggieDentalHowItWorks.h */,
+				BC0248B61724BEC6001E4692 /* DoggieDentalHowItWorks.m */,
+				BC0248B71724BEC8001E4692 /* DoggieDentalHowItWorks.xib */,
+				BC0248BA1724BEEE001E4692 /* DoggieDentalHowToTakeAGoodPhoto.h */,
+				BC0248BB1724BEEF001E4692 /* DoggieDentalHowToTakeAGoodPhoto.m */,
+				BC0248BC1724BEF1001E4692 /* DoggieDentalHowToTakeAGoodPhoto.xib */,
+				BC68CA9F16FE37B6006CBF75 /* DoggieDentalExamplePhoto.h */,
+				BC68CAA016FE37B7006CBF75 /* DoggieDentalExamplePhoto.m */,
+				BC68CAA116FE37B7006CBF75 /* DoggieDentalExamplePhoto.xib */,
+				BC2A92C2160FC72B00E7E8E6 /* DoggieDentalPetProfile.h */,
+				BC2A92C3160FC72B00E7E8E6 /* DoggieDentalPetProfile.m */,
+				BC2A92C5160FC89D00E7E8E6 /* DoggieDentalPetStore.h */,
+				BC2A92C6160FC89D00E7E8E6 /* DoggieDentalPetStore.m */,
+				BC68CAA616FE73CF006CBF75 /* DoggieDentalCheckup.h */,
+				BC68CAA716FE73D0006CBF75 /* DoggieDentalCheckup.m */,
+				BC68CAA916FF631A006CBF75 /* DoggieDentalCheckupStore.h */,
+				BC68CAAA16FF631B006CBF75 /* DoggieDentalCheckupStore.m */,
+				BC2A92C8160FC8B100E7E8E6 /* DoggieDentalImageStore.h */,
+				BC2A92C9160FC8B100E7E8E6 /* DoggieDentalImageStore.m */,
+				BC024899171C8CD8001E4692 /* DoggieDentalMainTableViewCell.h */,
+				BCDA0830181D90690003D0BE /* DoggieDentalNearbyVets.h */,
+				BCDA0831181D90690003D0BE /* DoggieDentalNearbyVets.m */,
+				BCDA0838181DBF6B0003D0BE /* DoggieDentalNearbyVetsList.h */,
+				BCDA0839181DBF6B0003D0BE /* DoggieDentalNearbyVetsList.m */,
+				BC02489A171C8CD9001E4692 /* DoggieDentalMainTableViewCell.m */,
+				BC02489B171C8CD9001E4692 /* DoggieDentalMainTableViewCell.xib */,
+				BC93FD9016F53EE90055CC83 /* DoggieDentalPetUITableViewCell.h */,
+				BC93FD9116F53EEA0055CC83 /* DoggieDentalPetUITableViewCell.m */,
+				BC93FD9316F53F780055CC83 /* DoggieDentalPetUITableViewCell.xib */,
+				BC2A9284160E573B00E7E8E6 /* Supporting Files */,
+			);
+			path = DoggieDental;
+			sourceTree = "<group>";
+		};
+		BC2A9284160E573B00E7E8E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC548E5F16F5026F00EAE528 /* main.m */,
+				BC2A9285160E573B00E7E8E6 /* DoggieDental-Info.plist */,
+				BC2A9286160E573B00E7E8E6 /* InfoPlist.strings */,
+				BC2A928B160E573B00E7E8E6 /* DoggieDental-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC43DD1718E1E4D100696B78 /* launch_images */ = {
+			isa = PBXGroup;
+			children = (
+				BC43DD1818E1E58700696B78 /* launch_960.png */,
+				BC43DD1918E1E58700696B78 /* launch_1146.png */,
+			);
+			name = launch_images;
+			sourceTree = "<group>";
+		};
+		BC68CAAD16FF6931006CBF75 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BC43DD1718E1E4D100696B78 /* launch_images */,
+				BC6E14CB18D9393D00F61095 /* photo_controller_blocks */,
+				BCE1B41618D618000003BB82 /* icon */,
+				BC8ACC6016F82A0D00EED901 /* uinavigationbarsliver.png */,
+				BC8ACC6116F82A0D00EED901 /* uinavigationbarsliver@2x.png */,
+				BC184F1A17F7692C00C3E3DD /* dental photo examples */,
+				BCF9288C17B6D54500773C59 /* default_cat.png */,
+				BCF9288D17B6D54500773C59 /* default_cat@2x.png */,
+				BCF9288E17B6D54500773C59 /* default_dog.png */,
+				BCF9288F17B6D54500773C59 /* default_dog@2x.png */,
+				BC0F774E176E90CC00F306B3 /* slides */,
+				BCDBB69117487FA6003BD698 /* uinavigationbarsliver2.png */,
+				BCDBB69217487FA6003BD698 /* uinavigationbarsliver2@2x.png */,
+				BCDBB67317481044003BD698 /* dental_front_block@2x.png */,
+				BCDBB67417481044003BD698 /* dental_left_block.png */,
+				BCDBB67517481044003BD698 /* dental_left_block@2x.png */,
+				BCDBB67617481044003BD698 /* dental_optional_block.png */,
+				BCDBB67717481044003BD698 /* dental_optional_block@2x.png */,
+				BCDBB67817481044003BD698 /* dental_right_block.png */,
+				BCDBB67917481044003BD698 /* dental_right_block@2x.png */,
+				BCDBB67117480B50003BD698 /* dental_front_block.png */,
+				BC02489F171C9DC8001E4692 /* red_circle.png */,
+				BC0248A0171C9DC8001E4692 /* red_circle@2x.png */,
+				BC8ACC6A16F84D1700EED901 /* generic_contact2.png */,
+				BC93FD9B16F556F10055CC83 /* general_bg.png */,
+				BC93FD9916F5557D0055CC83 /* green_nav_bar_gradient.png */,
+				BC93FD9516F54B630055CC83 /* dog_cell_thumb.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		BC6E14CB18D9393D00F61095 /* photo_controller_blocks */ = {
+			isa = PBXGroup;
+			children = (
+				BC6E14D418D93B5800F61095 /* photo_front@2x.png */,
+				BC6E14D518D93B5800F61095 /* photo_left@2x.png */,
+				BC6E14D618D93B5800F61095 /* photo_optional@2x.png */,
+				BC6E14D718D93B5800F61095 /* photo_right@2x.png */,
+			);
+			name = photo_controller_blocks;
+			sourceTree = "<group>";
+		};
+		BCDBB649173FFFF6003BD698 /* 3rd party wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				212473AB1E5E5768001008E3 /* KDJKeychainItemWrapper.h */,
+				212473AC1E5E5779001008E3 /* KDJKeychainItemWrapper.m */,
+			);
+			name = "3rd party wrappers";
+			sourceTree = "<group>";
+		};
+		BCE1B41618D618000003BB82 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				BC9AEDA018EA599200AC6A67 /* icon_29.png */,
+				BC9AED9E18EA594B00AC6A67 /* icon_40.png */,
+				BC9AED9C18EA591800AC6A67 /* icon_152.png */,
+				BC9AED9A18EA58CC00AC6A67 /* icon_76.png */,
+				BC43DD1318E1E43700696B78 /* icon_58.png */,
+				BC43DD1418E1E43700696B78 /* icon_80.png */,
+				BC43DD0F18E1E3B700696B78 /* icon_120.png */,
+			);
+			name = icon;
+			sourceTree = "<group>";
+		};
+		BCF9289417BDBC6300773C59 /* custom classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC93FD8D16F50A710055CC83 /* DoggieDentalButton.h */,
+				BC93FD8E16F50A710055CC83 /* DoggieDentalButton.m */,
+				BCF9289517BDBDA400773C59 /* DoggieDentalButtonFlat.h */,
+				BCF9289617BDBDA400773C59 /* DoggieDentalButtonFlat.m */,
+			);
+			name = "custom classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC2A9278160E573B00E7E8E6 /* Pet Dental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2A9291160E573B00E7E8E6 /* Build configuration list for PBXNativeTarget "Pet Dental" */;
+			buildPhases = (
+				BC2A9275160E573B00E7E8E6 /* Sources */,
+				BC2A9276160E573B00E7E8E6 /* Frameworks */,
+				BC2A9277160E573B00E7E8E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pet Dental";
+			productName = DoggieDental;
+			productReference = BC2A9279160E573B00E7E8E6 /* Pet Dental.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC2A9270160E573A00E7E8E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DoggieDental;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Isaac Tozer";
+				TargetAttributes = {
+					BC2A9278160E573B00E7E8E6 = {
+						DevelopmentTeam = 8BF753486Z;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BC2A9273160E573A00E7E8E6 /* Build configuration list for PBXProject "DoggieDental" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC2A926E160E573A00E7E8E6;
+			productRefGroup = BC2A927A160E573B00E7E8E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2A9278160E573B00E7E8E6 /* Pet Dental */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC2A9277160E573B00E7E8E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF9289217B6D54500773C59 /* default_dog.png in Resources */,
+				BC2A9288160E573B00E7E8E6 /* InfoPlist.strings in Resources */,
+				BCD86331162102B100912694 /* DoggieDentalDentalPhotosController.xib in Resources */,
+				BC184F2517F769B000C3E3DD /* cat_right.png in Resources */,
+				BC0F775C176E916400F306B3 /* 1@2x.png in Resources */,
+				BC184F2417F769B000C3E3DD /* cat_left@2x.png in Resources */,
+				BCE1B41518D4F8FE0003BB82 /* dog_optional@2x.png in Resources */,
+				BC184F2317F769B000C3E3DD /* cat_left.png in Resources */,
+				BC93FD9416F53F780055CC83 /* DoggieDentalPetUITableViewCell.xib in Resources */,
+				BC93FD9616F54B630055CC83 /* dog_cell_thumb.png in Resources */,
+				BC93FD9A16F5557E0055CC83 /* green_nav_bar_gradient.png in Resources */,
+				BC6E14DB18D93B5800F61095 /* photo_right@2x.png in Resources */,
+				BC6E14DA18D93B5800F61095 /* photo_optional@2x.png in Resources */,
+				BC93FD9C16F556F20055CC83 /* general_bg.png in Resources */,
+				BC0F775F176E916400F306B3 /* 4@2x.png in Resources */,
+				BCF9289117B6D54500773C59 /* default_cat@2x.png in Resources */,
+				BC8ACC6216F82A0D00EED901 /* uinavigationbarsliver.png in Resources */,
+				BC8ACC6316F82A0D00EED901 /* uinavigationbarsliver@2x.png in Resources */,
+				BC9AED9F18EA594B00AC6A67 /* icon_40.png in Resources */,
+				BC8ACC6B16F84D1700EED901 /* generic_contact2.png in Resources */,
+				BC68CAA316FE37B7006CBF75 /* DoggieDentalExamplePhoto.xib in Resources */,
+				BC43DD1A18E1E58700696B78 /* launch_960.png in Resources */,
+				BC68CAA516FE41EC006CBF75 /* photo_example.png in Resources */,
+				BC9AEDA318EA59CC00AC6A67 /* Images.xcassets in Resources */,
+				BC02489D171C8CD9001E4692 /* DoggieDentalMainTableViewCell.xib in Resources */,
+				BCE1B41418D4F8FE0003BB82 /* dog_optional.png in Resources */,
+				BC0248A1171C9DC8001E4692 /* red_circle.png in Resources */,
+				BC9AEDA118EA599200AC6A67 /* icon_29.png in Resources */,
+				BC0248A2171C9DC8001E4692 /* red_circle@2x.png in Resources */,
+				BC0248B91724BEC9001E4692 /* DoggieDentalHowItWorks.xib in Resources */,
+				BC43DD1218E1E3B700696B78 /* icon_120.png in Resources */,
+				BC6E14D818D93B5800F61095 /* photo_front@2x.png in Resources */,
+				BC0248BE1724BEF2001E4692 /* DoggieDentalHowToTakeAGoodPhoto.xib in Resources */,
+				BCDBB67217480B50003BD698 /* dental_front_block.png in Resources */,
+				BCDBB67A17481044003BD698 /* dental_front_block@2x.png in Resources */,
+				BCDBB67B17481045003BD698 /* dental_left_block.png in Resources */,
+				BC9AED9B18EA58CC00AC6A67 /* icon_76.png in Resources */,
+				BCDBB67C17481045003BD698 /* dental_left_block@2x.png in Resources */,
+				BC43DD1618E1E43700696B78 /* icon_80.png in Resources */,
+				BCDBB67D17481045003BD698 /* dental_optional_block.png in Resources */,
+				BCDBB67E17481045003BD698 /* dental_optional_block@2x.png in Resources */,
+				BC9AED9D18EA591800AC6A67 /* icon_152.png in Resources */,
+				BCDBB67F17481045003BD698 /* dental_right_block.png in Resources */,
+				BC43DD1518E1E43700696B78 /* icon_58.png in Resources */,
+				BCDBB68017481045003BD698 /* dental_right_block@2x.png in Resources */,
+				BC43DD1B18E1E58700696B78 /* launch_1146.png in Resources */,
+				BC6E14D918D93B5800F61095 /* photo_left@2x.png in Resources */,
+				BC184F2617F769B000C3E3DD /* cat_right@2x.png in Resources */,
+				BC0F7760176E916400F306B3 /* 5@2x.png in Resources */,
+				BCF9289317B6D54500773C59 /* default_dog@2x.png in Resources */,
+				BCDBB68717481697003BD698 /* front.png in Resources */,
+				BCDBB68817481697003BD698 /* front@2x.png in Resources */,
+				BCE1B40F18D4F6DD0003BB82 /* cat_optional@2x.png in Resources */,
+				BC43DD1D18E1F18700696B78 /* Default-568h@2x.png in Resources */,
+				BCDBB68917481697003BD698 /* left.png in Resources */,
+				BCDBB68A17481697003BD698 /* left@2x.png in Resources */,
+				BCE1B41118D4F6F80003BB82 /* cat_optional.png in Resources */,
+				BC184F2117F769B000C3E3DD /* cat_front.png in Resources */,
+				BC0F775B176E916400F306B3 /* 1.png in Resources */,
+				BCDBB68B17481697003BD698 /* right.png in Resources */,
+				BCDBB68C17481697003BD698 /* right@2x.png in Resources */,
+				BCF9289017B6D54500773C59 /* default_cat.png in Resources */,
+				BC0F775D176E916400F306B3 /* 2@2x.png in Resources */,
+				BCDBB69317487FA6003BD698 /* uinavigationbarsliver2.png in Resources */,
+				BCDBB69417487FA6003BD698 /* uinavigationbarsliver2@2x.png in Resources */,
+				BCDBB699174890E2003BD698 /* DoggieDentalMain2.xib in Resources */,
+				BCDBB6A017496732003BD698 /* DoggieDentalHomeCollectionCell.xib in Resources */,
+				BCF3A24F1798D677006F57A7 /* DoggieDentalLoggedIn.xib in Resources */,
+				BC0F775E176E916400F306B3 /* 3@2x.png in Resources */,
+				BC184F2217F769B000C3E3DD /* cat_front@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC2A9275160E573B00E7E8E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC233F0517ADC41F002D0AB2 /* DoggieDentalChangeAccountPassword.m in Sources */,
+				BC2A928E160E573B00E7E8E6 /* DoggieDentalAppDelegate.m in Sources */,
+				BC2A92C4160FC72B00E7E8E6 /* DoggieDentalPetProfile.m in Sources */,
+				BC2A92C7160FC89D00E7E8E6 /* DoggieDentalPetStore.m in Sources */,
+				BC6E14E118DF95CF00F61095 /* DoggieDentalDisclaimer.m in Sources */,
+				BC2A92CA160FC8B100E7E8E6 /* DoggieDentalImageStore.m in Sources */,
+				BC2A92CD160FD0A200E7E8E6 /* DoggieDentalPetList.m in Sources */,
+				BCD9AE11180B190400D7877F /* DoggieDentalCheckupPost.m in Sources */,
+				BCD86330162102B100912694 /* DoggieDentalDentalPhotosController.m in Sources */,
+				BCF207B416E3CF080061DDB8 /* DoggieDentalAddPetController2.m in Sources */,
+				BCFBAFE016ED25C800343C4C /* DoggieDentalAccount.m in Sources */,
+				BCFBAFE416ED4A6400343C4C /* DoggieDentalAccountSignUp.m in Sources */,
+				BCFBAFEB16ED826300343C4C /* DoggieDentalPaymentInfo.m in Sources */,
+				BCDA083A181DBF6B0003D0BE /* DoggieDentalNearbyVetsList.m in Sources */,
+				BC548E7616F5026F00EAE528 /* main.m in Sources */,
+				BCF3A24E1798D677006F57A7 /* DoggieDentalLoggedIn.m in Sources */,
+				BC93FD8F16F50A720055CC83 /* DoggieDentalButton.m in Sources */,
+				BC93FD9216F53EEB0055CC83 /* DoggieDentalPetUITableViewCell.m in Sources */,
+				BC68CAA216FE37B7006CBF75 /* DoggieDentalExamplePhoto.m in Sources */,
+				BC184F2C17F7760A00C3E3DD /* DoggieDentalIApHelper.m in Sources */,
+				BC68CAA816FE73D0006CBF75 /* DoggieDentalCheckup.m in Sources */,
+				BCF9289717BDBDA400773C59 /* DoggieDentalButtonFlat.m in Sources */,
+				BC68CAAB16FF631C006CBF75 /* DoggieDentalCheckupStore.m in Sources */,
+				BCDA0832181D90690003D0BE /* DoggieDentalNearbyVets.m in Sources */,
+				BC184F3117F77D8E00C3E3DD /* DoggieDentalInAppPurchase.m in Sources */,
+				BC68CAB316FF9012006CBF75 /* DoggieDentalAccountLogin.m in Sources */,
+				BC13AF3A17AE1387000DA6D3 /* DoggieDentalForgotPassword2.m in Sources */,
+				BC02489C171C8CD9001E4692 /* DoggieDentalMainTableViewCell.m in Sources */,
+				BC0248A6171CDD8C001E4692 /* DoggieDentalThankYou.m in Sources */,
+				BC0248AB17236784001E4692 /* DoggieDentalCheckupAnalysis.m in Sources */,
+				BC233EFF17AD950D002D0AB2 /* DoggieDentalChangeAccountEmail.m in Sources */,
+				BC6E14E418DF969400F61095 /* DoggieDentalTermsOfService.m in Sources */,
+				BC6E14DE18DF87A000F61095 /* DoggieDentalInfo.m in Sources */,
+				BC0248AF17236A2F001E4692 /* DoggieDentalCheckupList.m in Sources */,
+				BC454A7517997D5D0093684D /* DoggieDentalAbout.m in Sources */,
+				BC0248B81724BEC9001E4692 /* DoggieDentalHowItWorks.m in Sources */,
+				BC0248BD1724BEF2001E4692 /* DoggieDentalHowToTakeAGoodPhoto.m in Sources */,
+				212473AD1E5E5779001008E3 /* KDJKeychainItemWrapper.m in Sources */,
+				BCDBB698174890E2003BD698 /* DoggieDentalMain2.m in Sources */,
+				BCDBB69C17496648003BD698 /* DoggieDentalHomeCollectionCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC2A9286160E573B00E7E8E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2A9287160E573B00E7E8E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC2A928F160E573B00E7E8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos7.1;
+			};
+			name = Debug;
+		};
+		BC2A9290160E573B00E7E8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos7.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC2A9292160E573B00E7E8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8BF753486Z;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoggieDental/DoggieDental-Prefix.pch";
+				INFOPLIST_FILE = "DoggieDental/DoggieDental-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC2A9293160E573B00E7E8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8BF753486Z;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoggieDental/DoggieDental-Prefix.pch";
+				INFOPLIST_FILE = "DoggieDental/DoggieDental-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC2A9273160E573A00E7E8E6 /* Build configuration list for PBXProject "DoggieDental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2A928F160E573B00E7E8E6 /* Debug */,
+				BC2A9290160E573B00E7E8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BC2A9291160E573B00E7E8E6 /* Build configuration list for PBXNativeTarget "Pet Dental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2A9292160E573B00E7E8E6 /* Debug */,
+				BC2A9293160E573B00E7E8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC2A9270160E573A00E7E8E6 /* Project object */;
+}
