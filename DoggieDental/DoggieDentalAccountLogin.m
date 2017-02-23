@@ -131,8 +131,7 @@
         
         NSString *content = [NSString stringWithFormat:@"email=%@&password=%@", accountEmail, accountPassword];
         
-        //NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://petdental.isaactozer.com/login.php"]];
-        NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://petdental.isaactozer.com/login.php"]];
+        NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"https://petdentalapp.com/login.php"]];
         [request setHTTPMethod:@"POST"];
         [request setHTTPBody:[content dataUsingEncoding:NSISOLatin1StringEncoding]];
         
@@ -143,7 +142,7 @@
     //synchronous version
     NSString *content = [NSString stringWithFormat:@"email=%@&password=%@", accountEmail, accountPassword];
     //NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://localhost/petdental/account_post.php"]];
-    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://petdental.isaactozer.com/login.php"]];
+    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"https://petdentalapp.com/login.php"]];
     [request setHTTPMethod:@"POST"];
     [request setHTTPBody:[content dataUsingEncoding:NSISOLatin1StringEncoding]];
     
